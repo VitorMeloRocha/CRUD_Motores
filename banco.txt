@@ -1,0 +1,12 @@
+Create database Virturian;
+use virturian;
+
+Create table motores (
+    cod Int UNSIGNED NOT NULL AUTO_INCREMENT,
+    Polos char(1),
+    Rede varchar(3),
+    Regime varchar(2),
+    Corrente varchar(10),
+    Potencia varchar(10),
+    Torque varchar(10),
+    Primary Key (cod));
